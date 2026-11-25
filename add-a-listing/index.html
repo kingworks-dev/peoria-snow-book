@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add a listing or fix one | The Peoria Snow Book</title>
+<meta name="description" content="Suggest a Snow plowing and removal for the Peoria guide, or send a correction to an existing entry.">
+<link rel="canonical" href="https://kingworks-dev.github.io/peoria-snow-book/add-a-listing/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css?v=1795374350">
+<style>:root{--paper:#f2f4f5;--paper2:#e3e8ea;--ink:#101619;--ink2:#3d4a51;--ink3:#617077;--accent:#0f5f7a;--accent2:#15809f;--dark:#0d1417;--on-dark:#eaf1f3;--line:rgba(16,22,25,0.16);--line-2:rgba(16,22,25,0.08)}</style>
+</head>
+<body>
+<header class="top solid" id="top">
+  <a class="brand" href="../"><b>The Peoria Snow Book</b><span>Peoria, Illinois</span></a>
+  <nav aria-label="Guide"><a href="../#list">The list</a><a href="../how-we-rank/">How we rank</a>
+    <a href="#correction">Correction</a></nav>
+  <a class="sub" href="../#newsletter">The monthly email</a>
+</header>
+<main class="page">
+  <p class="u-cap">Send us a name</p>
+  <h1>Add a business, or fix one</h1>
+  <p class="deck">The list is only as good as what people tell us. If a good Snow plowing and removal is missing, or an entry is wrong, this form comes straight to the person who edits the page.</p>
+  <div class="prose">
+    <h2>What gets added</h2>
+    <ul>
+      <li>A business that really serves Peoria or the towns around it.</li>
+      <li>A working phone number or a live website, so the entry is usable.</li>
+      <li>Owners are welcome to send their own entry — say so and we will mark the source.</li>
+    </ul>
+    <p>Free, always. A spot on the list costs nothing and there is no card anywhere in this form.</p>
+    <h2 id="correction">Corrections and removals</h2>
+    <p>Wrong number, wrong town, closed down, or you would rather the business was not listed — send the same form and say what should change. Owners asking to be removed are honoured without argument.</p>
+  </div>
+
+  <div style="margin-top:34px;border:1px solid var(--line);background:var(--paper2);padding:clamp(20px,3.4vw,34px)">
+    <form id="sform" data-slug="peoria-snow-book" novalidate style="display:grid;gap:14px">
+      <div class="field" style="color:var(--ink)"><label for="aname" style="color:var(--ink3)">Your name</label>
+        <input id="aname" name="name" autocomplete="name" required placeholder="Jordan Reyes" style="border-color:var(--line);color:var(--ink)"></div>
+      <div class="field"><label for="aemail" style="color:var(--ink3)">Your email</label>
+        <input id="aemail" name="email" type="email" autocomplete="email" required placeholder="you@example.com" style="border-color:var(--line);color:var(--ink)"></div>
+      <div class="field"><label for="aservice" style="color:var(--ink3)">Add a listing, or a correction?</label>
+        <select id="aservice" name="service" style="border-color:var(--line);color:var(--ink)">
+          <option>Add a business</option>
+          <option>Correction to an entry</option>
+          <option>Remove a listing</option>
+        </select></div>
+      <div class="field"><label for="amsg" style="color:var(--ink3)">Business name, town, phone or site, and anything we should know</label>
+        <textarea id="amsg" name="message" rows="5" required placeholder="Name, town, phone or website — and what makes them worth listing." style="background:transparent;border:1px solid var(--line);color:var(--ink);padding:13px 14px;font:400 16px/1.5 var(--f-body);border-radius:1px"></textarea></div>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-solid" type="submit" data-label="Send it" style="justify-self:start">Send it</button>
+      <p class="pol" id="serr" role="alert" style="color:var(--accent)"></p>
+    </form>
+    <p class="done" id="sdone" style="color:var(--ink)">Got it — thank you. Additions are reviewed by hand and the page is updated when the list changes.</p>
+  </div>
+  <a class="back" href="../">← Back to the list</a>
+  <div style="height:60px"></div>
+</main>
+<footer>
+  <div class="legal"><span>© <span id="yr">2026</span> The Peoria Snow Book · KING HOLDINGS VENTURES LLC</span>
+    <span>Listings checked November 22, 2026.</span></div>
+</footer>
+<script src="../assets/site.js?v=1795374350" defer></script>
+</body>
+</html>
